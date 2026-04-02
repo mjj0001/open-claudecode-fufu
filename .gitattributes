@@ -1,2 +1,6 @@
 * text=auto eol=lf
 *.sh text eol=lf
+*.map filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
